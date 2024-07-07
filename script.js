@@ -6,14 +6,19 @@ setTimeout(function() {
     document.querySelector('.loader').style.display = 'none';
     document.querySelector('.content-wrapper').style.visibility = 'visible';
     document.querySelector('.sidebar-info_more').style.display = 'block';
-  }, 500); // wait for the transition to complete
-}, 1500);
+  }, 600); // wait for the transition to complete
+}, 2000);
+
+
+///////////////
 
 document.body.style.overflow = 'hidden';
 
 setTimeout(function() {
   document.body.style.overflow = 'auto';
-}, 1500);
+}, 2000);
+
+////////////////////
 
 
 const toggleSwitch = document.getElementById('toggle');
