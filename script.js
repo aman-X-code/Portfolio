@@ -81,7 +81,7 @@ modalCloseBtn.addEventListener("click", testimonialsModalFunc);
 overlay.addEventListener("click", testimonialsModalFunc);*/
 
 function downloadFile() {
-  window.open("./assets/AmanKhannaResume.pdf")
+  window.open("AmanKhannaResume.pdf")
 }
 
 // custom select variables
